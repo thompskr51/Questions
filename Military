@@ -3,11 +3,11 @@
     var age = 
     if (age <=18) {
         console.log('You are too young for the military!');
-    } if else (name === 'Rugen' && rank === 'Count') {
+    } else if (name === 'Rugen' && rank === 'Count') {
         console.log(‘My name is Inigo Montoya, you killed my father, prepare to die.’);
-    } if else (rank === Captain) {
+    } else if (rank === Captain) {
         console.log(`Aye Aye Captain ${name}`);
-    } if else (rank === Private && age > 40){
+    } else if (rank === Private && age > 40){
         console.log(`What have you been doing with your life ${name}?`); 
     } else {
         console.log(`Hello ${rank} ${name}, I cannot wait to celebrate your ${age + 1} th birthday next year!`);
