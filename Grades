@@ -10,5 +10,6 @@ if (testGrade >= 0 && testGrade <= 65) {
     console.log('C');
 } else if (testGrade >= 80 && testGrade <= 89) {
     console.log('B');
-} else if (testGrade >=90 && testGrade <=100)
+} else if (testGrade >=90 && testGrade <=100) {
     console.log('A');
+}
