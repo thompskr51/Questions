@@ -1,0 +1,9 @@
+var hungry = false
+var timeOfDay = 'morning'
+if (hungry === true && timeOfDay === 'lunchtime') {
+    console.log('eat lunch');
+} else if (hungry = true && timeOfDay === 'morning') {
+    console.log('eat breakfast'); 
+} else if (hungry = true && timeOfDay !== 'lunchtime') {
+    console.log('eat a snack');
+} 
