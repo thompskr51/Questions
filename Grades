@@ -1,0 +1,14 @@
+var testGrade = Math.floor(Math.random() * 100);
+
+console.log(testGrade);
+
+if (testGrade >= 0 && testGrade <= 65) {
+    console.log('F');
+} else if (testGrade > 65 && testGrade <= 70) {
+    console.log('D');
+} else if (testGrade >= 71 && testGrade <= 79) {
+    console.log('C');
+} else if (testGrade >= 80 && testGrade <= 89) {
+    console.log('B');
+} else if (testGrade >=90 && testGrade <=100)
+    console.log('A');
